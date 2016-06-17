@@ -1,6 +1,6 @@
 # Finding agencies that often buy from small and medium businesses
 # New contractors may find selling to these agencies easier than to the others
-# The vendor's median revenue is used for ranking.
+# The vendor median revenue is used for ranking.
 select
   substr(agencyid, 1, 4) agency_id,
   first(substr(agencyid, 7)) agency_name,

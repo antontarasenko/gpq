@@ -15,11 +15,15 @@ The quickest way to find out what it means exactly:
 
 ### Data
 
+* [`data`](/data)
+
 The data is collected from government websites and loaded to [Google BigQuery](https://cloud.google.com/bigquery/):
 
 Data | BigQuery dataset | Source
 --- | --- | ---
 US Federal Government contracts (2000–2016) | [gpqueries:contracts](https://bigquery.cloud.google.com/dataset/gpqueries:contracts) | [USASpending.gov](https://www.usaspending.gov/DownloadCenter/Pages/dataarchives.aspx)
+
+For the codebooks, see [`data`](/data).
 
 ### Queries
 
@@ -54,13 +58,11 @@ Jupyter (IPython) notebooks with replication code and comments:
 * [Introduction to US Federal Government Contracts](/notebooks/contracts_intro.ipynb)
 
 
-## Roadmap
+## Coming soon
 
-Expect soon:
-
-- Coverage beyond contracts: federal grands, loans, and other assistance
+- More federal coverage: federal grands, loans, and other assistance
 - Subnational coverage: states and large cities
-- Separate notebooks on finding government clients and business intelligence
+- Notebooks for business intelligence and finding government customers
 
 To receive updates, press "Watch" in the top right corner.
 
