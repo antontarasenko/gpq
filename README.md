@@ -41,13 +41,7 @@ All methods require a Google Account and a Google Cloud Project. Both are free. 
 
 Web GUI is the easiest to start with.
 
-*See also:* [Accessing BigQuery](https://github.com/antontarasenko/smq#usage) 
-
-### Reports
-
-* [`reports`](/reports)
-
-Extracts that highlight particular findings, usually from notebooks.
+*See also:* [Accessing BigQuery](https://github.com/antontarasenko/smq#usage)
 
 ### Notebooks
 
@@ -56,6 +50,13 @@ Extracts that highlight particular findings, usually from notebooks.
 Jupyter (IPython) notebooks with replication code and comments:
 
 * [Introduction to US Federal Government Contracts](/notebooks/contracts_intro.ipynb)
+* [Finding Government Clients in Procurement History](/notebooks/contracts_for_vendors.ipynb)
+
+### Reports
+
+* [`reports`](/reports)
+
+Extracts that highlight particular findings, usually from notebooks.
 
 
 ## Coming soon

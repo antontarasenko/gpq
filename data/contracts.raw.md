@@ -231,10 +231,7 @@ Format is `MM/DD/YYYY`. For some fields, missing data is encoded as "01/01/1900"
 ## Product
 
      80: psc_cat
-     81: productorservicecode
-
-- Encoded in two parts like "F099: OTHER NAT RES MGMT & CONSERV". Use the 4-symbol part for unique identification.
-
+     81: productorservicecode # Encoded in two parts like "F099: OTHER NAT RES MGMT & CONSERV". Use the 4-symbol part for unique identification.
      82: systemequipmentcode
      83: claimantprogramcode
      84: principalnaicscode # The industry in which the contractor does business. Two-part identification: "115310: SUPPORT ACTIVITIES FOR FORESTRY", where the number refers to NAICS classification. Mostly 6-digit codes.
